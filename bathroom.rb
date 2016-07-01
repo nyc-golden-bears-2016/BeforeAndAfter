@@ -11,7 +11,6 @@ class Bathroom
     @location = options.fetch("location", "")
     @park_name = options.fetch("name", "")
     @open_year_round = options.fetch("open_year_round", "")
-    set_ll
   end
 
   def set_ll
